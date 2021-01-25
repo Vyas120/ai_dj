@@ -65,27 +65,27 @@ function draw() {
 	if(score_Right > 0.2 ){
 		circle(rightWristX, rightWristY, 20);
 		
-		if(rightWristX >0 && rightWristX <=100){
+		if(rightWristY >0 && rightWristY <=100){
 			document.getElementById("speed").innerHTML= "Speed: 0.5x";
 			song.rate(0.5);
 		}
 
-		else if(rightWristX >100 && rightWristX <=200){
+		else if(rightWristY >100 && rightWristY <=200){
 			document.getElementById("speed").innerHTML= "Speed: 1x"
 			song.rate(1);
 		}
 
-		else if(rightWristX >200 && rightWristX <=300){
+		else if(rightWristY >200 && rightWristY <=300){
 			document.getElementById("speed").innerHTML= "Speed: 1.5x"
 			song.rate(1.5);
 		}
 
-		else if(rightWristX >300 && rightWristX <=400){
+		else if(rightWristY >300 && rightWristY <=400){
 			document.getElementById("speed").innerHTML= "Speed: 2x"
 			song.rate(2);
 		}
 
-		else if(rightWristX >400 && rightWristX <=500){
+		else if(rightWristY >400 && rightWristY <=500){
 			document.getElementById("speed").innerHTML= "Speed: 2.5x"
 			song.rate(2.5);
 		}
